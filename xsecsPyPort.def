@@ -1,0 +1,7 @@
+; xsecsPyPort.def : Declares the module parameters.
+
+LIBRARY      "xsecsPyPort.DLL"
+
+EXPORTS
+	XSEMI_Gem_initGemPort			@1 PRIVATE
+	XSEMI_Gem_ReceiveDataCallBack   @2 PRIVATE
